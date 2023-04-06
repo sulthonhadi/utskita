@@ -8,10 +8,10 @@
     <title>UNWAHA</title>
 
     <!-- Bootstrap -->
-    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet" >
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous' />
     <!-- JQUERY -->
-    <script src="<?= base_url('assets/lib/jquery/jquery.min.js') ?>" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="<?= base_url('assets/lib/jquery/jquery.min.js') ?>"></script>
 
 
     <style>
@@ -192,7 +192,7 @@
         </div>
     </footer>
     <!-- Bootstrap -->
-    <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>" ></script>
 
 </body>
 

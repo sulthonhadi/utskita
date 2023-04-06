@@ -124,7 +124,7 @@
                 <div class="card h-100">
                     <div class="box-img">
                         <a href="<?= base_url('detailjurnal'); ?>">
-                            <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/2/journalThumbnail_en_US.jpg" alt="Title">
+                            <img class="card-img-top" src="<?= base_url('/assets/imgdinamika.jpg') ;?>" alt="Title">
                         </a>
                     </div>
                     <div class="card-body">
