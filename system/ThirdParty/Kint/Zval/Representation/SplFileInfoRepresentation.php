@@ -57,7 +57,7 @@ class SplFileInfoRepresentation extends Representation
         $this->path = $fileInfo->getPathname();
 
         try {
-            if (\strlen($this->path) && $fileInfo->getRealPath()) {
+            if ($fileInfo->getRealPath()) {
                 $this->perms = $fileInfo->getPerms();
                 $this->size = $fileInfo->getSize();
                 $this->owner = $fileInfo->getOwner();

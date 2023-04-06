@@ -117,20 +117,13 @@ if (! function_exists('site_url')) {
     {
         $uri = _get_uri($relativePath, $config);
 
-        $uriString = URI::createURIString(
+        return URI::createURIString(
             $scheme ?? $uri->getScheme(),
             $uri->getAuthority(),
             $uri->getPath(),
             $uri->getQuery(),
             $uri->getFragment()
         );
-
-        // For protocol-relative links
-        if ($scheme === '') {
-            $uriString = '//' . $uriString;
-        }
-
-        return $uriString;
     }
 }
 

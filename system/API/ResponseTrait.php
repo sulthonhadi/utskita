@@ -92,10 +92,8 @@ trait ResponseTrait
         if ($data === null && $status === null) {
             $status = 404;
             $output = null;
-            $this->format($data);
         } elseif ($data === null && is_numeric($status)) {
             $output = null;
-            $this->format($data);
         } else {
             $status = empty($status) ? 200 : $status;
             $output = $this->format($data);
