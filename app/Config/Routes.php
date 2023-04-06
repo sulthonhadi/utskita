@@ -34,19 +34,7 @@ $routes->get('/kiwil', 'Mhs_aktif::m_aktif'); //CMIIW T_T
 
 //tian
 $routes->get('/ukm', 'Ukm::index');
-$routes->get('/pramuka', 'Ukm::pramuka');
-$routes->get('/seni', 'Ukm::seni');
-$routes->get('/bulutangkis', 'Ukm::bulutangkis');
-$routes->get('/banjari', 'Ukm::banjari');
-$routes->get('/qiroah', 'Ukm::qiroah');
-$routes->get('/desain_grafis', 'Ukm::desain_grafis');
-$routes->get('/etnika_nusantara', 'Ukm::etnika_nusantara');
-$routes->get('/futsal', 'Ukm::futsal');
-$routes->get('/kewirausahaan', 'Ukm::kewirausahaan');
-$routes->get('/penalaran', 'Ukm::penalaran');
-$routes->get('/pn', 'Ukm::pn');
-$routes->get('/teater', 'Ukm::teater');
-$routes->get('/volly', 'Ukm::volly');
+
 // end tian
 
 

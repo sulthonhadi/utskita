@@ -8,7 +8,7 @@
     <title>UNWAHA</title>
 
     <!-- Bootstrap -->
-    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet" >
+    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous' />
     <!-- JQUERY -->
     <script src="<?= base_url('assets/lib/jquery/jquery.min.js') ?>"></script>
@@ -128,6 +128,8 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('') ?>">Yayasan</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Pimpinan Fakultas</a>
+                            <a class="dropdown-item" href="<?= base_url('ukm') ?>">UKM</a>
+
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
@@ -192,7 +194,7 @@
         </div>
     </footer>
     <!-- Bootstrap -->
-    <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>" ></script>
+    <script src="<?= base_url('assets/js/bootstrap.bundle.min.js') ?>"></script>
 
 </body>
 

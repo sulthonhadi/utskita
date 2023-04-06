@@ -6,7 +6,7 @@ class Ukm extends BaseController
 {
     public function index()
     {
-        return view('Tian/daftar_ukm');
+        return view('Tian/ukm_base');
     }
     public function pramuka()
     {
