@@ -6,59 +6,59 @@ class Ukm extends BaseController
 {
     public function index()
     {
-        return view('daftar_ukm');
+        return view('Tian/daftar_ukm');
     }
     public function pramuka()
     {
-        return view('pramuka');
+        return view('Tian/pramuka');
     }
     public function seni()
     {
-        return view('seni');
+        return view('Tian/seni');
     }
     public function bulutangkis()
     {
-        return view('bulutangkis');
+        return view('Tian/bulutangkis');
     }
     public function banjari()
     {
-        return view('banjari');
+        return view('Tian/banjari');
     }
     public function qiroah()
     {
-        return view('qiroah');
+        return view('Tian/qiroah');
     }
     public function desain_grafis()
     {
-        return view('desain_grafis');
+        return view('Tian/desain_grafis');
     }
     public function etnika_nusantara()
     {
-        return view('etnika_nusantara');
+        return view('Tian/etnika_nusantara');
     }
     public function futsal()
     {
-        return view('futsal');
+        return view('Tian/futsal');
     }
     public function kewirausahaan()
     {
-        return view('kewirausahaan');
+        return view('Tian/kewirausahaan');
     }
     public function penalaran()
     {
-        return view('penalaran');
+        return view('Tian/penalaran');
     }
     public function pn()
     {
-        return view('pn');
+        return view('Tian/pn');
     }
     public function teater()
     {
-        return view('teater');
+        return view('Tian/teater');
     }
     public function volly()
     {
-        return view('volly');
+        return view('Tian/volly');
     }
     
     
