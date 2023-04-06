@@ -1,5 +1,5 @@
 <?php
-echo $this->extend('template');
+echo $this->extend('template_by_nofal');
 echo $this->section('content') ?>
 
 <!-- Your Home Code Here  -->
