@@ -22,7 +22,9 @@ $routes->set404Override();
 
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Home::index');
+
 $routes->get('/admin', 'C_dashboard::index');
+$routes->get('/afrizal', 'C_dashboard::p_afrizal');
 // $routes->get('/link', 'ControllerName::functionName');
 
 

@@ -8,4 +8,8 @@ class C_dashboard extends BaseController
     {
         return view('dashboard_admin/template_dashboard');
     }
+    public function p_afrizal()
+    {
+        return view('dashboard_admin/biodata');
+    }
 }
