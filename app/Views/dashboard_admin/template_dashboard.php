@@ -1,7 +1,3 @@
-public function index()
-{
-return view('dashboard_admin/template_dashboard');
-}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,7 +71,7 @@ return view('dashboard_admin/template_dashboard');
                     </li>
 
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="<?= base_url('afrizal')?>">
+                        <a class="sidebar-link" href="<?= base_url('afrizal') ?>">
                             <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
                         </a>
                     </li>
