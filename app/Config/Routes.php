@@ -25,11 +25,13 @@ $routes->get('/', 'Home::index');
 $routes->get('/perpus', 'Home::perpus');
 $routes->get('/jurnal', 'Home::jurnal');
 $routes->get('/detailjurnal', 'Home::d_jurnal');
+$routes->get('/d_dosen', 'Home::d_dosen');
 
 
 $routes->get('/admin', 'C_dashboard::index');
 $routes->get('/afrizal', 'C_dashboard::p_afrizal');
-$routes->get('/kiwil', 'Mhs_aktif::m_aktif'); //CMIIW T_T
+$routes->get('/kiwil', 'Mhs_aktif::m_aktif'); 
+//CMIIW T_T
 // $routes->get('/link', 'ControllerName::functionName');
 
 //tian

@@ -20,5 +20,9 @@ class Home extends BaseController
     {
         return view('detail_jurnal');
     }
+    public function d_dosen()
+    {
+        return view('datadosen');
+    }
     
 }
