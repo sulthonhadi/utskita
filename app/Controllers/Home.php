@@ -20,4 +20,5 @@ class Home extends BaseController
     {
         return view('detail_jurnal');
     }
+    
 }
