@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous' />
     <!-- JQUERY -->
     <script src="<?= base_url('assets/lib/jquery/jquery.min.js') ?>" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
@@ -112,6 +112,7 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item"><a class="nav-link text-white" href="<?= base_url() ?>">HOME</a></li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -164,7 +165,7 @@
                             <a class="dropdown-item" href="<?= base_url() ?>">PMB</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">SIA UNWAHA</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">E-JOURNAL</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">E-LIBRARY</a>
+                            <a class="dropdown-item" href="<?= base_url('perpus') ?>">E-LIBRARY</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">E-LEARNING</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">PENGAJUAN TA</a>

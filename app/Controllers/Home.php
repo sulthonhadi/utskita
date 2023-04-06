@@ -8,5 +8,8 @@ class Home extends BaseController
     {
         return view('pages/home');
     }
-    
+    public function perpus()
+    {
+        return view('pages/perpus');
+    }
 }
