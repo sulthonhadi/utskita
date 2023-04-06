@@ -171,6 +171,7 @@
                             <a class="dropdown-item" href="<?= base_url() ?>">E-LEARNING</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">PENGAJUAN TA</a>
+                            <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                         </div>
                     </li>
                 </ul>
