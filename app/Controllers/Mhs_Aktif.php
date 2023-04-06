@@ -1,7 +1,9 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
 
-class Mhs_Aktif extends CI_Controller
+namespace App\Controllers;
+
+class Home extends BaseController
+
 {
     public function m_aktif()
     {

@@ -29,7 +29,7 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Ukm::index');
+$routes->get('/ukm', 'Ukm::index');
 $routes->get('/pramuka', 'Ukm::pramuka');
 $routes->get('/seni', 'Ukm::seni');
 $routes->get('/bulutangkis', 'Ukm::bulutangkis');
@@ -43,7 +43,7 @@ $routes->get('/penalaran', 'Ukm::penalaran');
 $routes->get('/pn', 'Ukm::pn');
 $routes->get('/teater', 'Ukm::teater');
 $routes->get('/volly', 'Ukm::volly');
-$routes->get('/dashboard_mhs', 'Ukm::dashboard_mhs');
+
 
 /*
  * --------------------------------------------------------------------
