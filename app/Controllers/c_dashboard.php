@@ -12,4 +12,5 @@ class C_dashboard extends BaseController
     {
         return view('dashboard_admin/biodata');
     }
+    
 }

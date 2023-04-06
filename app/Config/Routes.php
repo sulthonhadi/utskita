@@ -23,6 +23,8 @@ $routes->set404Override();
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Home::index');
 $routes->get('/perpus', 'Home::perpus');
+$routes->get('/jurnal', 'Home::jurnal');
+$routes->get('/detailjurnal', 'Home::d_jurnal');
 
 $routes->get('/admin', 'C_dashboard::index');
 $routes->get('/afrizal', 'C_dashboard::p_afrizal');

@@ -164,7 +164,7 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url() ?>">PMB</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">SIA UNWAHA</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">E-JOURNAL</a>
+                            <a class="dropdown-item" href="<?= base_url('jurnal') ?>">E-JOURNAL</a>
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">E-LIBRARY</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">E-LEARNING</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">TRACER STUDY</a>
