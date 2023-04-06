@@ -120,7 +120,7 @@
                             <a class="dropdown-item" href="<?= base_url() ?>">Visi Misi</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Struktur Organisasi</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Mars Unwaha</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Dosen dan Staff</a>
+                            <a class="dropdown-item" href="<?= base_url('d_dosen') ?>">Dosen dan Staff</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
