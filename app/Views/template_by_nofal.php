@@ -143,8 +143,8 @@
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url() ?>">Kalender Akademik</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Kurikulum Pembelajaran</a>
+                            <a class="dropdown-item" href="<?= base_url('kalender') ?>">Kalender Akademik</a>
+                            <a class="dropdown-item" href="<?= base_url('kalenderakademik') ?>">Kurikulum Pembelajaran</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Jadwal Perkuliahan</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Info Beasiswa</a>
                         </div>
