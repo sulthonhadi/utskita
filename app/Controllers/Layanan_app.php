@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Fasilitas extends BaseController
+class Layanan_app extends BaseController
 {
     public function index()
     {
