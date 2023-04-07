@@ -155,7 +155,7 @@
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fasilitas</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url() ?>">Perpustakaan</a>
+                            <a class="dropdown-item" href="<?= base_url('perpus') ?>">Perpustakaan</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Lab Bahasa</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Lab Komputer</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Kantin</a>
@@ -169,7 +169,7 @@
                             <a class="dropdown-item" href="<?= base_url('jurnal') ?>">E-JOURNAL</a>
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">E-LIBRARY</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">E-LEARNING</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">TRACER STUDY</a>
+                            <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                         </div>

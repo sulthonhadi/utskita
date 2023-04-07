@@ -38,10 +38,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('alumni') ?>">Data Alumni</a>
+                        <a class="nav-link active" href="<?= base_url('alumni') ?>">Data Alumni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?= base_url('f_alumni') ?>">Form Pengguna Lulusan</a>
+                        <a class="nav-link" href="<?= base_url('f_alumni') ?>">Form Pengguna Lulusan</a>
                     </li>
                 </ul>
             </div>

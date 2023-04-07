@@ -21,22 +21,28 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 // $routes->get('/', 'Home::index');
-$routes->get('/f_alumni','C_alumni::f_alumni');
-$routes->get('/alumni','C_alumni::index');
-$routes->get('/mahasiswa_aktif','Mhs::m_aktif');
-$routes->get('/koperasi','Koperasi::index');
 
+// FASILITAS 
+$routes->get('/perpus', 'Fasilitas::perpus');
+
+
+// LAYANAN APLIKASI 
+$routes->get('/f_alumni', 'C_alumni::f_alumni');
+$routes->get('/alumni', 'C_alumni::index');
+
+$routes->get('/koperasi', 'Koperasi::index');
+$routes->get('/mahasiswa_aktif', 'Mhs::m_aktif');
 
 $routes->get('/', 'Home::index');
-$routes->get('/perpus', 'Home::perpus');
-$routes->get('/jurnal', 'Home::jurnal');
-$routes->get('/detailjurnal', 'Home::d_jurnal');
+$routes->get('/jurnal', 'jurnal::jurnal');
+$routes->get('/detailjurnal', 'jurnal::d_jurnal');
 $routes->get('/d_dosen', 'Home::d_dosen');
 
 
 $routes->get('/admin', 'C_dashboard::index');
 $routes->get('/afrizal', 'C_dashboard::p_afrizal');
-$routes->get('/kiwil', 'Mhs_aktif::m_aktif'); 
+$routes->get('/kiwil', 'Mhs_aktif::m_aktif');
+$routes->get('/brgkoperasi', 'ControllerKoperasi::index');
 //CMIIW T_T
 // $routes->get('/link', 'ControllerName::functionName');
 
