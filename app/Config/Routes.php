@@ -25,6 +25,12 @@ $routes->set404Override();
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');
 
+//DASHBOARD MHS
+
+$routes->get('/', 'Dashboard_mhs::index');
+$routes->get('/home', 'Dashboard_mhs::home');
+$routes->get('/icon_list', 'Dashboard_mhs::icon_list');
+
 
 // LAYANAN APLIKASI 
 $routes->get('/f_alumni', 'C_alumni::f_alumni');

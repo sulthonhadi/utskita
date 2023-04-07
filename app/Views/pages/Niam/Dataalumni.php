@@ -94,7 +94,7 @@
                         <td>INFORMATIKA</td>
                         <td>Teknologi Informasi</td>
                         <td>2009</td>
-                        <td>2202041105</td>
+                        <td>220204110</td>
                     </tr>
                     <tr class="">
                         <td scope="row">2</td>
@@ -102,7 +102,7 @@
                         <td>Agrobisnin</td>
                         <td>Pertanian</td>
                         <td>2009</td>
-                        <td>2202021102</td>
+                        <td>220202110</td>
                     </tr>
                     <tr class="">
                         <td scope="row">3</td>
@@ -110,7 +110,7 @@
                         <td>Sistem Informasi</td>
                         <td>Teknologi Informasi</td>
                         <td>2010</td>
-                        <td>2202051101</td>
+                        <td>220205110</td>
                     </tr>
                     <tr class="">
                         <td scope="row">4</td>
@@ -118,7 +118,7 @@
                         <td>Manajemen</td>
                         <td>Ekonomi</td>
                         <td>2010</td>
-                        <td>2202081110</td>
+                        <td>220208111</td>
                     </tr>
                     <tr class="">
                         <td scope="row">5</td>
@@ -126,7 +126,7 @@
                         <td>Pendidikan Bahasa Inggris</td>
                         <td>Pendidikan</td>
                         <td>2011</td>
-                        <td>2202011121</td>
+                        <td>220201112</td>
                     </tr>
                     <tr class="">
                         <td scope="row">6</td>
@@ -134,7 +134,7 @@
                         <td>Pendidikan Agama Islam</td>
                         <td>Pendidikan</td>
                         <td>2011</td>
-                        <td>2202021111</td>
+                        <td>220202111</td>
                     </tr>
                 </tbody>
             </table>
