@@ -21,6 +21,16 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 $routes->get('/', 'Home::index');
+
+//PROFIL
+$routes->get('/pegawai_staff', 'Profil::pegawai');
+$routes->get('/struktur', 'Profil::struktur');
+$routes->get('/visimisi', 'Profil::visi_misi');
+$routes->get('/data_dosen', 'Profil::data_dosen');
+$routes->get('/sejarah', 'Profil::sejarah');
+
+
+//JURNAL
 $routes->get('/detailjurnal/dinamika', 'Layanan_app::djurnal');
 $routes->get('/jurnal', 'Layanan_app::jurnal');
 
