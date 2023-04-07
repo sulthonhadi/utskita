@@ -12,7 +12,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('/detailjurnal/dinamika'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/3/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/dinamika.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -31,8 +31,8 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/2/journalThumbnail_en_US.jpg" alt="Title">
+                    <a href="<?= base_url('detailjurnal/eduscope'); ?>">
+                        <img class="card-img-top" src="<?= base_url('assets/img/eduscope.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -51,7 +51,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/1/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/saintekbu.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -71,7 +71,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top " src="https://ejournal.unwaha.ac.id/public/journals/20/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top " src="<?= base_url('assets/img/newton.jpg') ?>" alt="Title">
                     </a>
                 </div>
 
@@ -92,7 +92,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top " src="https://ejournal.unwaha.ac.id/public/journals/19/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top " src="<?= base_url('assets/img/aplications.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -112,7 +112,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top " src="https://ejournal.unwaha.ac.id/public/journals/17/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top " src="<?= base_url('assets/img/schoolar.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -132,7 +132,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/16/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/income.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -151,7 +151,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/15/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/jumat_keagamaan.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -171,7 +171,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/14/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/jumat_ekonomi.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -191,7 +191,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/12/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/jumat_pertanian.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -211,7 +211,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="<?= base_url('detailjurnal'); ?>">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/11/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/jumat_pendidikan.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">
@@ -231,7 +231,7 @@ echo $this->section('content') ?>
             <div class="card h-100">
                 <div class="box-img">
                     <a href="#">
-                        <img class="card-img-top" src="https://ejournal.unwaha.ac.id/public/journals/23/journalThumbnail_en_US.jpg" alt="Title">
+                        <img class="card-img-top" src="<?= base_url('assets/img/multidicipline.jpg') ?>" alt="Title">
                     </a>
                 </div>
                 <div class="card-body">

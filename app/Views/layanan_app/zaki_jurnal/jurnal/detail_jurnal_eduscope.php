@@ -17,7 +17,7 @@ echo $this->section('content') ?>
             </h5>
             <div>
                 <div class="card">
-                    <img class="card-img-top" src="<?= base_url('assets/img/dinamika.jpg') ?>" alt="Title">
+                    <img class="card-img-top" src="<?= base_url('assets/img/eduscope.jpg') ?>" alt="Title">
                     <div class="card-body">
                         <p class="card-title">
                             DINAMIKA : Jurnal Kajian Pendidikan dan Keislaman
@@ -30,12 +30,12 @@ echo $this->section('content') ?>
         </div>
         <div class="col">
             <h5>
-                About the Journal
+                Vol. 8 No. 2 (2023): Volume 8 No. 2 Januari 2023
             </h5>
             <p>
-                Dinamika diterbitkan oleh Fakultas Agama Islam dan Lembaga Penelitian dan Pengabdian Masyarakat (LPPM) Universitas KH. A. Wahab Hasbullah Jombang. Jurnal ini ditujukan untuk mengundang para akademisi, dosen, maupun peneliti untuk berkontribusi dalam publikasi ilmiah. Dinamika memuat hasil penelitian yang meliputi pendidikan Islam, ekonomi shariah dan pemikiran Islam. Terbit dua kali dalam satu tahun, bulan Juni dan Desember. E-issn : 2548-6896
+
             </p>
-            <a href="https://ejournal.unwaha.ac.id/index.php/dinamika/article/view/2568/1448" target="_blank">
+            <a href="https://ejournal.unwaha.ac.id/index.php/eduscope/article/view/3362/1544" target="_blank">
                 <div class="div btn btn-primary">
                     Klik Untuk Download Pdf
                 </div>

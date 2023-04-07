@@ -41,7 +41,8 @@ $routes->get('/sejarah', 'Profil::sejarah');
 
 
 //JURNAL
-$routes->get('/detailjurnal/dinamika', 'Layanan_app::djurnal');
+$routes->get('/detailjurnal/dinamika', 'Layanan_app::dinamika_jurnal');
+$routes->get('/detailjurnal/eduscope', 'Layanan_app::eduscope_jurnal');
 $routes->get('/jurnal', 'Layanan_app::jurnal');
 
 

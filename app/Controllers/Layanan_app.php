@@ -8,8 +8,12 @@ class Layanan_app extends BaseController
     {
         return view('layanan_app/zaki_jurnal/jurnal_page');
     }
-    public function djurnal()
+    public function dinamika_jurnal()
     {
         return view('layanan_app/zaki_jurnal/jurnal/detail_jurnal_dinamika');
+    }
+    public function eduscope_jurnal()
+    {
+        return view('layanan_app/zaki_jurnal/jurnal/detail_jurnal_eduscope');
     }
 }
