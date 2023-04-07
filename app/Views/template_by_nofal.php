@@ -179,11 +179,9 @@
 
 
     <!-- MAIN CONTENT RENDER -->
-    <div class="">
         <?php
         echo $this->renderSection('content');
         ?>
-    </div>
     <!-- END CONTENT RENDER -->
 
     <footer class="bg-dark">
