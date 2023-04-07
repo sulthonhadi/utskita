@@ -43,6 +43,15 @@ $routes->get('/sejarah', 'Profil::sejarah');
 //JURNAL
 $routes->get('/detailjurnal/dinamika', 'Layanan_app::dinamika_jurnal');
 $routes->get('/detailjurnal/eduscope', 'Layanan_app::eduscope_jurnal');
+$routes->get('/detailjurnal/saintekbu', 'Layanan_app::saintekbu_jurnal');
+$routes->get('/detailjurnal/newton', 'Layanan_app::newton_jurnal');
+$routes->get('/detailjurnal/schoolar', 'Layanan_app::schoolar_jurnal');
+$routes->get('/detailjurnal/income', 'Layanan_app::income_jurnal');
+$routes->get('/detailjurnal/jumat_keagamaan', 'Layanan_app::keagamaan_jurnal');
+$routes->get('/detailjurnal/jumat_ekonomi', 'Layanan_app::ekonomi_jurnal');
+$routes->get('/detailjurnal/jumat_pertanian', 'Layanan_app::pertanian_jurnal');
+$routes->get('/detailjurnal/jumat_pendidikan', 'Layanan_app::pendidikan_jurnal');
+$routes->get('/detailjurnal/multidicipline', 'Layanan_app::multidicipline_jurnal');
 $routes->get('/jurnal', 'Layanan_app::jurnal');
 
 

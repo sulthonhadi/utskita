@@ -31,7 +31,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal/eduscope'); ?>">
+                    <a href="<?= base_url('/detailjurnal/eduscope'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/eduscope.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -50,7 +50,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('detailjurnal/saintekbu'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/saintekbu.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -70,7 +70,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/newton'); ?>">
                         <img class="card-img-top " src="<?= base_url('assets/img/newton.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -91,7 +91,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/aplications'); ?>">
                         <img class="card-img-top " src="<?= base_url('assets/img/aplications.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -111,7 +111,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/schoolar'); ?>">
                         <img class="card-img-top " src="<?= base_url('assets/img/schoolar.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -131,7 +131,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/income'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/income.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -150,7 +150,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/jumat_keagamaan'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/jumat_keagamaan.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -170,7 +170,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/jumat_ekonomi'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/jumat_ekonomi.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -190,7 +190,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/jumat_pertanian'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/jumat_pertanian.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -210,7 +210,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="<?= base_url('detailjurnal'); ?>">
+                    <a href="<?= base_url('/detailjurnal/jumat_pendidikan'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/jumat_pendidikan.jpg') ?>" alt="Title">
                     </a>
                 </div>
@@ -230,7 +230,7 @@ echo $this->section('content') ?>
         <div class="col-sm-2">
             <div class="card h-100">
                 <div class="box-img">
-                    <a href="#">
+                    <a href="<?= base_url('/detailjurnal/multidicipline'); ?>">
                         <img class="card-img-top" src="<?= base_url('assets/img/multidicipline.jpg') ?>" alt="Title">
                     </a>
                 </div>

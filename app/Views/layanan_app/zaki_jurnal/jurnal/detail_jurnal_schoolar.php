@@ -15,12 +15,12 @@ echo $this->section('content') ?>
             <h5>
                 Current Issue
             </h5>
-            <div>  
+            <div>
                 <div class="card">
-                    <img class="card-img-top" src="<?= base_url('assets/img/dinamika.jpg') ?>" alt="Title">
+                    <img class="card-img-top" src="<?= base_url('assets/img/schoolar.jpg') ?>" alt="Title">
                     <div class="card-body">
                         <p class="card-title">
-                            DINAMIKA : Jurnal Kajian Pendidikan dan Keislaman
+                            SCHOOLAR: Social and Literature Study in Education
                         </p>
                         <p class="card-text">
                         </p>
@@ -33,9 +33,9 @@ echo $this->section('content') ?>
                 About the Journal
             </h5>
             <p>
-                Dinamika diterbitkan oleh Fakultas Agama Islam dan Lembaga Penelitian dan Pengabdian Masyarakat (LPPM) Universitas KH. A. Wahab Hasbullah Jombang. Jurnal ini ditujukan untuk mengundang para akademisi, dosen, maupun peneliti untuk berkontribusi dalam publikasi ilmiah. Dinamika memuat hasil penelitian yang meliputi pendidikan Islam, ekonomi shariah dan pemikiran Islam. Terbit dua kali dalam satu tahun, bulan Juni dan Desember. E-issn : 2548-6896
+                SCHOOLAR: Social and Literature Study in Education is a scientific journal published by the Institute for Research and Community Service (LPPM), KH University. A. Wahab Hasbullah Jombang. SCHOOLAR: Social and Literature Study in Education aims to provide information from the results of research and literature review (non-applied) researchers who focus on education.
             </p>
-            <a href="https://ejournal.unwaha.ac.id/index.php/dinamika/article/view/2568/1448" target="_blank">
+            <a href="https://ejournal.unwaha.ac.id/index.php/jurnal_pengabdian/article/view/1380/1457" target="_blank">
                 <div class="div btn btn-primary">
                     Klik Untuk Download Pdf
                 </div>

@@ -15,12 +15,12 @@ echo $this->section('content') ?>
             <h5>
                 Current Issue
             </h5>
-            <div>  
+            <div>
                 <div class="card">
-                    <img class="card-img-top" src="<?= base_url('assets/img/dinamika.jpg') ?>" alt="Title">
+                    <img class="card-img-top" src="<?= base_url('assets/img/jumat_keagamaan.jpg') ?>" alt="Title">
                     <div class="card-body">
                         <p class="card-title">
-                            DINAMIKA : Jurnal Kajian Pendidikan dan Keislaman
+                            Jumat Keagamaan: Jurnal Pengabdian Masyarakat
                         </p>
                         <p class="card-text">
                         </p>
@@ -33,9 +33,9 @@ echo $this->section('content') ?>
                 About the Journal
             </h5>
             <p>
-                Dinamika diterbitkan oleh Fakultas Agama Islam dan Lembaga Penelitian dan Pengabdian Masyarakat (LPPM) Universitas KH. A. Wahab Hasbullah Jombang. Jurnal ini ditujukan untuk mengundang para akademisi, dosen, maupun peneliti untuk berkontribusi dalam publikasi ilmiah. Dinamika memuat hasil penelitian yang meliputi pendidikan Islam, ekonomi shariah dan pemikiran Islam. Terbit dua kali dalam satu tahun, bulan Juni dan Desember. E-issn : 2548-6896
+                JUMAT KEAGAMAAN: JURNAL PENGABDIAN MASYARAKAT adalah Jurnal ilmiah yang mewadahi hasil kegiatan pengabdian kepada masyarakat bidang keagamaan yang diterbitkan oleh Lembaga penelitian dan pengabdian masyarakat (LPPM) Universitas KH. A. Wahab Hasbullah (UNWAHA)
             </p>
-            <a href="https://ejournal.unwaha.ac.id/index.php/dinamika/article/view/2568/1448" target="_blank">
+            <a href="https://ejournal.unwaha.ac.id/index.php/abdimas_agama/article/view/3119/1441" target="_blank">
                 <div class="div btn btn-primary">
                     Klik Untuk Download Pdf
                 </div>
