@@ -6,6 +6,6 @@ class Ukm extends BaseController
 {
     public function index()
     {
-        // return view('');
+        return view('p_ukm/ukm_base');
     }
 }

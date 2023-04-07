@@ -17,6 +17,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
+        .konten {
+            min-height: 100vh !important;
+        }
+
         :root {
             --bgnav: #232cc2
         }
@@ -116,11 +120,11 @@
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url() ?>">Sejarah</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Visi Misi</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Struktur Organisasi</a>
+                            <a class="dropdown-item" href="<?= base_url('sejarah') ?>">Sejarah</a>
+                            <a class="dropdown-item" href="<?= base_url('visimisi') ?>">Visi Misi</a>
+                            <a class="dropdown-item" href="<?= base_url('struktur') ?>">Struktur Organisasi</a>
                             <a class="dropdown-item" href="<?= base_url() ?>">Mars Unwaha</a>
-                            <a class="dropdown-item" href="<?= base_url('d_dosen') ?>">Dosen dan Staff</a>
+                            <a class="dropdown-item" href="<?= base_url('data_dosen') ?>">Dosen dan Staff</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
@@ -133,15 +137,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FAKULTAS</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url() ?>">FAI</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">FTI</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">FE</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">FE</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">FIP</a>
+                        <a class="nav-link text-white" href="<?= base_url('fakultas') ?>">FAKULTAS</a>
 
-                        </div>
                     </li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
