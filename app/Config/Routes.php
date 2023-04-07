@@ -29,8 +29,8 @@ $routes->get('/koperasi','Koperasi::index');
 
 $routes->get('/', 'Home::index');
 $routes->get('/perpus', 'Home::perpus');
-$routes->get('/jurnal', 'Home::jurnal');
-$routes->get('/detailjurnal', 'Home::d_jurnal');
+$routes->get('/jurnal', 'jurnal::jurnal');
+$routes->get('/detailjurnal', 'jurnal::d_jurnal');
 $routes->get('/d_dosen', 'Home::d_dosen');
 
 

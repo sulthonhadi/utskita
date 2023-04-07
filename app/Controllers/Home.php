@@ -12,14 +12,7 @@ class Home extends BaseController
     {
         return view('pages/perpus');
     }
-    public function jurnal()
-    {
-        return view('jurnal_page');
-    }
-    public function d_jurnal()
-    {
-        return view('detail_jurnal');
-    }
+   
     public function d_dosen()
     {
         return view('datadosen');
