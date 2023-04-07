@@ -6,10 +6,12 @@ class jurnal extends BaseController
 {
     public function jurnal()
     {
-        return view('jurnal_page');
+        return view('layanan_app/zaki_jurnal/jurnal_page');
     }
-    public function d_jurnal()
+   
+    public function dinamika()
     {
-        return view('detail_jurnal');
+        
+        return view('layanan_app/zaki_jurnal/jurnal/detail_jurnal_dinamika');
     }
 }
