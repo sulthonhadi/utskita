@@ -92,3 +92,75 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\jurnal))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:29:00 --> Invalid file: "jurnal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jurnal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('jurnal', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(9): view('jurnal')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->jurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:29:48 --> Invalid file: "layanan_app/zaki_jurnal/jurnal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(9): view('layanan_app/zaki_jurnal/jurnal')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->jurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:30:56 --> Invalid file: "layanan_app/zaki_jurnal/jurnal/detail_jurnal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal/detail_jurnal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal/detail_jurnal', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(13): view('layanan_app/zaki_jurnal/jurnal/detail_jurnal')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->djurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:31:27 --> Invalid file: "layanan_app/zaki_jurnal/jurnal/detail_jurnal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal/detail_jurnal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal/detail_jurnal', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(13): view('layanan_app/zaki_jurnal/jurnal/detail_jurnal')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->djurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:31:29 --> Invalid file: "layanan_app/zaki_jurnal/jurnal/detail_jurnal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal/detail_jurnal.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal/detail_jurnal', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(13): view('layanan_app/zaki_jurnal/jurnal/detail_jurnal')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->djurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:31:29 --> Invalid file: "layanan_app/zaki_jurnal/jurnal_page_dinamika.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal_page_dinamika.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal_page_dinamika', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(9): view('layanan_app/zaki_jurnal/jurnal_page_dinamika')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->jurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:31:32 --> Invalid file: "layanan_app/zaki_jurnal/jurnal_page_dinamika.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal_page_dinamika.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal_page_dinamika', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(9): view('layanan_app/zaki_jurnal/jurnal_page_dinamika')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->jurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-07 14:31:39 --> Invalid file: "layanan_app/zaki_jurnal/jurnal_page_dinamika.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/zaki_jurnal/jurnal_page_dinamika.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/zaki_jurnal/jurnal_page_dinamika', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(9): view('layanan_app/zaki_jurnal/jurnal_page_dinamika')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->jurnal()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

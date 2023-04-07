@@ -21,14 +21,8 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 $routes->get('/', 'Home::index');
-<<<<<<< Updated upstream
-$routes->get('/detail_jurnal','Layanan_app::djurnal');
-$routes->get('/jurnal','Layanan_app::jurnal');
-=======
-$routes->get('/jurnal', 'jurnal::jurnal');
-$routes->get('/detailjurnal/dinamika', 'jurnal::dinamika');
-$routes->get('/d_dosen', 'Home::d_dosen');
->>>>>>> Stashed changes
+$routes->get('/detailjurnal/dinamika', 'Layanan_app::djurnal');
+$routes->get('/jurnal', 'Layanan_app::jurnal');
 
 
 
