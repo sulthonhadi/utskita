@@ -4,8 +4,8 @@ namespace App\Controllers;
 
 class Fasilitas extends BaseController
 {
-    public function index()
+    public function perpus()
     {
-        // return view('');
+        return view('pages/Ajeng/perpus');
     }
 }

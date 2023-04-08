@@ -8,14 +8,8 @@ class Home extends BaseController
     {
         return view('pages/home');
     }
-    public function perpus()
+    public function fakultas()
     {
-        return view('pages/perpus');
+        return view('pages/fakultas');
     }
-   
-    public function d_dosen()
-    {
-        return view('datadosen');
-    }
-    
 }

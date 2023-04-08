@@ -2,9 +2,9 @@
 
 namespace App\Controllers;
 
-class Ukm extends BaseController
+class Organisasi extends BaseController
 {
-    public function index()
+    public function ukm()
     {
         return view('p_ukm/ukm_base');
     }
