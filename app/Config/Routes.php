@@ -17,7 +17,6 @@ $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 
 
-<<<<<<< HEAD
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
@@ -39,8 +38,6 @@ $routes->get('/alumni', 'C_alumni::index');
 
 $routes->get('/koperasi', 'Koperasi::index');
 $routes->get('/mahasiswa_aktif', 'Mhs::m_aktif');
-=======
->>>>>>> 9e0e3d8cde5147c297029f473dcf6e05f3643337
 
 $routes->get('/', 'Home::index');
 
