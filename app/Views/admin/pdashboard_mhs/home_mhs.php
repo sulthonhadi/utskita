@@ -4,9 +4,6 @@
 <table border="2" class="table table-bordered text-center shadow-lg ">
     <div class="row">
         <thead class="bg-success">
-            <th>
-
-            </th>
             <th></th>
             <th>KRS</th>
             <th>UTS</th>
