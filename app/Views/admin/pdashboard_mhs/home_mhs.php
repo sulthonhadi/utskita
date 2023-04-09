@@ -12,15 +12,15 @@
         <tbody>
             <tr>
                 <td>Tanggal Mulai</td>
-                <td>4 Pebruari 2023</td>
+                <td>4 Februari 2023</td>
                 <td>8 April 2023</td>
-                <td>1 Januari 1970</td>
+                <td>1 Juli 2023</td>
             </tr>
             <tr>
                 <td>Tanggal Selesai</td>
-                <td>28 Pebruari 2023</td>
+                <td>28 Februari 2023</td>
                 <td>13 April 2023</td>
-                <td>1 Januari 1970</td>
+                <td>6 Juli 2023</td>
             </tr>
         </tbody>
     </div>
