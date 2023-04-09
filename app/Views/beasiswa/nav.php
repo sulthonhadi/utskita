@@ -8,7 +8,7 @@
 
 
     <style>
-body{
+/* body{
     background-image: url(./gambar4.jpg);
     background-size: cover;
     background-attachment:fixed;
@@ -16,7 +16,7 @@ body{
   background-repeat: no-repeat;
     
    
-}
+} */
 .navbar {
   overflow: hidden;
   background-color:#191970 ;

@@ -76,7 +76,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
                     <input type="number" class="form-control" id="nilai" name="nilai" min="0" max="100" required>
                 </div>
                 <div class="d-grid gap-2">
-                    <button type="submit" class="btn btn-primary btn-lg">Daftar</button>
+                    <a href="<?= base_url('/beasiswa2')?>" class="btn btn-primary btn-lg">Daftar</a>
                 </div>
             </form>
 			<br>
