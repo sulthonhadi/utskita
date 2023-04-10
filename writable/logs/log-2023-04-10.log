@@ -53,3 +53,25 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademik))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:04:35 --> Undefined variable $update_databarang
+in APPPATH\Views\admin\sell_barang.php on line 61.
+ 1 APPPATH\Views\admin\sell_barang.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update_databarang', 'APPPATH\\Views\\admin\\sell_barang.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sell_barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sell_barang', [], true)
+ 5 APPPATH\Controllers\Dashboard_mhs.php(26): view('admin/sell_barang')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard_mhs->sell_barang()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_mhs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:05:28 --> Attempt to read property "kode_barang" on string
+in APPPATH\Views\admin\sell_barang.php on line 71.
+ 1 APPPATH\Views\admin\sell_barang.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_barang" on string', 'APPPATH\\Views\\admin\\sell_barang.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\sell_barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/sell_barang', [], true)
+ 5 APPPATH\Controllers\Dashboard_mhs.php(26): view('admin/sell_barang')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard_mhs->sell_barang()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_mhs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
