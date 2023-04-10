@@ -47,7 +47,9 @@ $routes->get('/form_pmb', 'Home::formpmb');
 $routes->get('/peraturan', 'Akademik::peraturan');
 $routes->get('/datadosen', 'Profil::data_dosen');
 $routes->get('/galeri', 'Profil::galeri');
-$routes->get('/data_pegawai', 'Profil::data_pegawai');
+$routes->get('/s_kampus', 'Profil::s_kampus');
+$routes->get('/pr', 'Profil::pr');
+$routes->get('/prak', 'Profil::prak');
 
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');

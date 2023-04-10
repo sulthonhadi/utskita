@@ -26,4 +26,16 @@ class Profil extends BaseController
     {
         return view('profil/wp');
     }
+    public function s_kampus()
+    {
+        return view('struktur_kampus');
+    }
+    public function pr()
+    {
+        return view('profil/pr');
+    }
+    public function prak()
+    {
+        return view('profil/prak');
+    }
 }
