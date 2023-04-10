@@ -68,4 +68,8 @@ class Layanan_app extends BaseController
     {
         return view('layanan_app/zaki_jurnal/jurnal/detail_jurnal_multidicipline');
     }
+    public function pmb()
+    {
+        return view('layanan_app/pmb');
+    }
 }

@@ -26,6 +26,7 @@ $routes->get('/datadosen', 'Profil::data_dosen');
 
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');
+$routes->get('/fasilitas', 'Fasilitas::fasilitas');
 
 
 //DASHBOARD MHS
