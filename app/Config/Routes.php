@@ -62,6 +62,7 @@ $routes->get('/fasilitas', 'Fasilitas::fasilitas');
 $routes->get('/admin', 'Dashboard_mhs::index');
 $routes->get('/home', 'Dashboard_mhs::home');
 $routes->get('/icon_list', 'Dashboard_mhs::icon_list');
+$routes->get('/kontak_form', 'Home::kontak_form');
 
 
 

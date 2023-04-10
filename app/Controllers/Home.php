@@ -40,4 +40,8 @@ class Home extends BaseController
     {
         return view('calon_mahasiswa');
     }
+    public function kontak_form()
+    {
+        return view('kontak_form');
+    }
 }

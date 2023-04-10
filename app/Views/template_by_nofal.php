@@ -177,6 +177,7 @@
                             <a class="dropdown-item" href="<?= base_url('laporan_ta') ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                             <a class="dropdown-item" href="<?= base_url('event_berita') ?>">Event Dan Berita</a>
+                            <a class="dropdown-item" href="<?= base_url('kontak_form') ?>">Kontak Form</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
