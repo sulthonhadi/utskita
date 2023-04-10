@@ -14,7 +14,7 @@ class Profil extends BaseController
     {
         return view('profil/struktur_organisasi');
     }
-    public function pegawai()
+    public function data_pegawai()
     {
         return view('profil/index_pegawai_baihaqi');
     }

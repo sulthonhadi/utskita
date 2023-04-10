@@ -124,6 +124,7 @@
                             <a class="dropdown-item" href="<?= base_url('visimisi') ?>">Visi Misi</a>
                             <a class="dropdown-item" href="<?= base_url('struktur') ?>">Struktur Organisasi</a>
                             <a class="dropdown-item" href="<?= base_url('data_dosen') ?>">Dosen dan Staff</a>
+                            <a class="dropdown-item" href="<?= base_url('data_pegawai') ?>">Data Pegawai</a>
                             <a class="dropdown-item" href="<?= base_url('galeri') ?>">Gallery Unwaha</a>
                         </div>
                     </li>
@@ -172,7 +173,7 @@
                             <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url('pengajuan_ta') ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
-                            <a class="dropdown-item" target="_blank" href="<?= base_url('event_berita') ?>">Event Dan Berita</a>
+                            <a class="dropdown-item" href="<?= base_url('event_berita') ?>">Event Dan Berita</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
