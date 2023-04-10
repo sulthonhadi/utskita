@@ -27,6 +27,7 @@ $routes->get('/sell_barang', 'Dashboard_mhs::sell_barang');
 $routes->get('/add_barang', 'Dashboard_mhs::add_barang');
 $routes->get('/infopembayaran', 'Dashboard_mhs::infopembayaran');
 $routes->get('/form_pmb', 'Home::formpmb');
+$routes->get('/koperasi', 'Home::koperasi');
 
 
 
