@@ -2,7 +2,7 @@
 echo $this->extend('template_by_nofal');
 echo $this->section('content') ?>
 
-<img src="https://unwaha.ac.id/wp-content/uploads/2022/12/Gedung-Baru-UNWAHA.jpg">
+<img src="https://unwaha.ac.id/wp-content/uploads/2022/12/Gedung-Baru-UNWAHA.jpg" class="w-75 mx-auto">
 
 
 
