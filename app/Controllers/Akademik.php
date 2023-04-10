@@ -28,5 +28,9 @@ class Akademik extends BaseController
     {
         return view('akademik/peraturan');
     }
+    public function jadwal_perkuliahan()
+    {
+        return view('jadwal/v_jadwal');
+    }
 }
 

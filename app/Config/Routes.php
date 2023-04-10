@@ -105,6 +105,7 @@ $routes->get('/seminar_a', 'Akademik::seminar_a');
 $routes->get('/seminar_b', 'Akademik::seminar_b');
 $routes->get('/seminar_c', 'Akademik::seminar_c');
 $routes->get('/seminar_d', 'Akademik::seminar_d');
+$routes->get('/jadwal_perkulian', 'Akademik::jadwal_perkuliahan');
 
 
 //PROFIL

@@ -70,7 +70,29 @@
     <h2>Jadwal Perkuliahan</h2>
     
     <?php 
-        $this->load->view($konten);
+        include('fakultas/FAI/FAI.php');
+        include('fakultas/FAI/FAI2.php');
+        include('fakultas/FAI/FAI3.php');
+        include('fakultas/FAI/FAI4.php');
+        include('fakultas/FTI/FTI.php');
+        include('fakultas/FTI/FTI2.php');
+        include('fakultas/FTI/FTI3.php');
+        include('fakultas/FTI/FTI4.php');
+        include('fakultas/fakultas1.php');
+        include('fakultas/fakultas2.php');
+        include('fakultas/fakultas3.php');
+        include('fakultas/fakultas4.php');
+        include('kelas/SIA/kelas.php');
+        include('kelas/SIA/kelas2.php');
+        include('kelas/SIA/kelas3.php');
+        include('kelas/SIA/kelas4.php');
+        include('kelas/kelas.php');
+        include('kelas/kelas2.php');
+        include('kelas/kelas3.php');
+        include('kelas/kelas4.php');
+        
+        
+
     ?>
 
 </div>
