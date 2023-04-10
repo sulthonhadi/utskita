@@ -42,6 +42,7 @@ $routes->get('/', 'Home::index');
 // LAYANAN APLIKASI 
 $routes->get('/f_alumni', 'Layanan_app::data_alumni');
 $routes->get('/alumni', 'Layanan_app::form_alumni');
+$routes->get('/pmb', 'Layanan_app::form_alumni');
 
 
 //AKADEMIK

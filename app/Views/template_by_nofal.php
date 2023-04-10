@@ -129,8 +129,8 @@
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ORGANISASI</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url('yayasan') ?>">Yayasan</a>
-                            <a class="dropdown-item" href="<?= base_url('pimpinan_fakultas') ?>">Pimpinan Fakultas</a>
+                            <!-- <a class="dropdown-item" href="<?= base_url('yayasan') ?>">Yayasan</a> -->
+                            <!-- <a class="dropdown-item" href="<?= base_url('pimpinan_fakultas') ?>">Pimpinan Fakultas</a> -->
                             <a class="dropdown-item" href="<?= base_url('ukm') ?>">UKM</a>
                         </div>
                     </li>
