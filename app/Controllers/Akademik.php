@@ -24,4 +24,9 @@ class Akademik extends BaseController
     {
         return view('seminar/Seminar');
     }
+    public function peraturan()
+    {
+        return view('akademik/peraturan');
+    }
 }
+

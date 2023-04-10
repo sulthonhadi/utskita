@@ -149,6 +149,7 @@
                             <a class="dropdown-item" href="<?= base_url('jadwal_perkulian') ?>">Jadwal Perkuliahan</a>
                             <a class="dropdown-item" href="<?= base_url('info_beasiswa') ?>">Info Beasiswa</a>
                             <a class="dropdown-item" href="<?= base_url('seminar') ?>">Info Seminar</a>
+                            <a class="dropdown-item" href="<?= base_url('peraturan') ?>">Peraturan Perkuliahan</a>
 
                         </div>
                     </li>
