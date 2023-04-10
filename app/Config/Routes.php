@@ -90,6 +90,7 @@ $routes->get('/seminar', 'Akademik::seminar');
 //ORGANISASI
 $routes->get('/ukm', 'Ukm::index');
 $routes->get('/bem', 'Ukm::bem');
+$routes->get('/calon_mahasiswa', 'Home::calon_mahasiswa');
 
 // FAKULTAS
 $routes->get('/fakultas', 'Home::fakultas');

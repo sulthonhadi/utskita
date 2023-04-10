@@ -174,7 +174,7 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('jurnal') ?>">E-JOURNAL</a>
                             <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
-                            <a class="dropdown-item" href="<?= base_url('pengajuan_ta') ?>">PENGAJUAN TA</a>
+                            <a class="dropdown-item" href="<?= base_url('laporan_ta') ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                             <a class="dropdown-item" href="<?= base_url('event_berita') ?>">Event Dan Berita</a>
                         </div>
@@ -184,6 +184,7 @@
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('pmb') ?>">PMB</a>
                             <a class="dropdown-item" href="<?= base_url('form_pmb') ?>">Form PMB</a>
+                            <a class="dropdown-item" href="<?= base_url('calon_mahasiswa') ?>">Calon Mahasiswa</a>
                         </div>
                     </li>
 

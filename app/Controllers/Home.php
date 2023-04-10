@@ -36,4 +36,8 @@ class Home extends BaseController
     {
         return view('koperasi/koperasi');
     }
+    public function calon_mahasiswa()
+    {
+        return view('calon_mahasiswa');
+    }
 }
