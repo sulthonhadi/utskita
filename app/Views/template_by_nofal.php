@@ -154,6 +154,7 @@
                             <a class="dropdown-item" href="<?= base_url('info_beasiswa') ?>">Info Beasiswa</a>
                             <a class="dropdown-item" href="<?= base_url('seminar') ?>">Info Seminar</a>
                             <a class="dropdown-item" href="<?= base_url('peraturan') ?>">Peraturan Perkuliahan</a>
+                            <a class="dropdown-item" href="<?= base_url('mahasiswaberprestasi') ?>">Mahasiswa Berprestasi</a>
 
                         </div>
                     </li>

@@ -50,6 +50,7 @@ $routes->get('/galeri', 'Profil::galeri');
 $routes->get('/s_kampus', 'Profil::s_kampus');
 $routes->get('/pr', 'Profil::pr');
 $routes->get('/prak', 'Profil::prak');
+$routes->get('/mahasiswaberprestasi', 'Home::mahasiswaberprestasi');
 
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');

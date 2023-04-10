@@ -28,4 +28,8 @@ class Home extends BaseController
     {
         return view('form_pmb');
     }
+    public function mahasiswaberprestasi()
+    {
+        return view('mahasiswaberprestasi');
+    }
 }
