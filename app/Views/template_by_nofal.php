@@ -158,10 +158,11 @@
 
                         </div>
                     </li>
-                    <li class="nav-item dropdown me-2">
+                    <li class="nav-item dropdown me-2"> 
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fasilitas</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">Perpustakaan</a>
+                            <a class="dropdown-item" href="<?= base_url('anggota_perpus') ?>">Anggota Perpustakaan</a>
                             <a class="dropdown-item" href="<?= base_url('fasilitas') ?>">Fasilitas Lainnya</a>
                             <a class="dropdown-item" href="<?= base_url('koperasi') ?>">Koperasi</a>
                             <!-- <a class="dropdown-item" href="<?= base_url('lab_bahasa') ?>">Lab Bahasa</a>

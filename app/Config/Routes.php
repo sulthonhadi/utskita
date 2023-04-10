@@ -56,6 +56,8 @@ $routes->get('/mahasiswaberprestasi', 'Home::mahasiswaberprestasi');
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');
 $routes->get('/fasilitas', 'Fasilitas::fasilitas');
+$routes->get('/anggota_perpus', 'Fasilitas::anggota_perpus');
+
 
 
 //DASHBOARD MHS

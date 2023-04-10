@@ -16,4 +16,8 @@ class Fasilitas extends BaseController
     {
         return view('p_fasilitas/fasilitas');
     }
+    public function anggota_perpus()
+    {
+        return view('anggota_perpus');
+    }
 }
