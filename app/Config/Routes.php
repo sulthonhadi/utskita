@@ -39,6 +39,7 @@ $routes->get('/mahasiswa_aktif', 'Mhs::m_aktif');
 
 $routes->get('/', 'Home::index');
 $routes->get('/nilai', 'Home::nilai');
+$routes->get('/laporan_ta', 'Home::laporan_ta');
 
 
 // LAYANAN APLIKASI 
