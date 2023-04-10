@@ -20,4 +20,8 @@ class Home extends BaseController
     {
         return view('mhs/index_nilai_bimo');
     }
+    public function laporan_ta()
+    {
+        return view('pages/laporan_ta');
+    }
 }
