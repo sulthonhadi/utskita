@@ -222,3 +222,21 @@ in APPPATH\Views\layanan_app\pmb.php on line 269.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 16:27:56 --> Invalid file: "koperasi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('koperasi.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('koperasi', [], true)
+ 3 APPPATH\Controllers\Home.php(37): view('koperasi')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->koperasi()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 16:28:24 --> Invalid file: "/koperasi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/koperasi.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/koperasi', [], true)
+ 3 APPPATH\Controllers\Home.php(37): view('/koperasi')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->koperasi()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

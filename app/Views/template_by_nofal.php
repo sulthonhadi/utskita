@@ -163,6 +163,7 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">Perpustakaan</a>
                             <a class="dropdown-item" href="<?= base_url('fasilitas') ?>">Fasilitas Lainnya</a>
+                            <a class="dropdown-item" href="<?= base_url('koperasi') ?>">Koperasi</a>
                             <!-- <a class="dropdown-item" href="<?= base_url('lab_bahasa') ?>">Lab Bahasa</a>
                             <a class="dropdown-item" href="<?= base_url('lab_komputer') ?>">Lab Komputer</a>
                             <a class="dropdown-item" href="<?= base_url('kantin') ?>">Kantin</a> -->
