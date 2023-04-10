@@ -16,4 +16,21 @@ class Dashboard_mhs extends BaseController
     {
         return view('admin/pdashboard_mhs/icon_list_mhs');
     }
+
+    public function add_barang()
+    {
+        return view('admin/add_barang');
+    }
+    public function sell_barang()
+    {
+        return view('admin/sell_barang');
+    }
+    public function pembayaran_ukt()
+    {
+        return view('admin/pembayaran_ukt');
+    }
+    public function biodata()
+    {
+        return view('admin/biodata');
+    }
 }

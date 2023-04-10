@@ -98,6 +98,13 @@ $routes->get('/detailjurnal/multidicipline', 'Layanan_app::multidicipline_jurnal
 $routes->get('/jurnal', 'Layanan_app::jurnal');
 
 
+
+
+
+
+
+
+
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }

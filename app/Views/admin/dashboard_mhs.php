@@ -47,11 +47,25 @@
 
 
                     <li class="sidebar-item">
-                        <a class="hijau sidebar-link" href="?pdashboard_mhs=icon_list">
-                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">ICON List</span>
+                        <a class="hijau sidebar-link" href="<?= base_url('biodata') ?>">
+                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Biodata</span>
                         </a>
                     </li>
-
+                    <li class="sidebar-item">
+                        <a class="hijau sidebar-link" href="<?= base_url('pembayaran_ukt') ?>">
+                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Pembayaran UKT</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="hijau sidebar-link" href="<?= base_url('add_barang') ?>">
+                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Add barang</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="hijau sidebar-link" href="<?= base_url('sell_barang') ?>">
+                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Sell barang</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>

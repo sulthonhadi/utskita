@@ -67,6 +67,7 @@
                             <li class="sidebar-item"><a class="sidebar-link" href="<?= base_url() ?>"><i data-feather="chevron-right"></i> Item 1</a></li>
                             <li class="sidebar-item"><a class="sidebar-link" href="<?= base_url() ?>"><i data-feather="chevron-right"></i> Item 2</a></li>
                             <li class="sidebar-item"><a class="sidebar-link" href="<?= base_url() ?>"><i data-feather="chevron-right"></i> Item 3</a></li>
+
                         </ul>
                     </li>
 
