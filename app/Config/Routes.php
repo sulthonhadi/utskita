@@ -23,6 +23,7 @@ $routes->set404Override();
 // $routes->get('/', 'Home::index');
 $routes->get('/peraturan', 'Akademik::peraturan');
 $routes->get('/datadosen', 'Profil::data_dosen');
+$routes->get('/galeri', 'Profil::galeri');
 
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');

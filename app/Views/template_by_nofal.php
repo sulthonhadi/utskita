@@ -124,6 +124,7 @@
                             <a class="dropdown-item" href="<?= base_url('visimisi') ?>">Visi Misi</a>
                             <a class="dropdown-item" href="<?= base_url('struktur') ?>">Struktur Organisasi</a>
                             <a class="dropdown-item" href="<?= base_url('data_dosen') ?>">Dosen dan Staff</a>
+                            <a class="dropdown-item" href="<?= base_url('galeri') ?>">Gallery Unwaha</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
