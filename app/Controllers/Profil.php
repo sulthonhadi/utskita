@@ -22,4 +22,8 @@ class Profil extends BaseController
     {
         return view('profil/datadosen');
     }
+    public function galeri()
+    {
+        return view('profil/wp');
+    }
 }
