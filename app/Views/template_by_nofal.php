@@ -123,7 +123,7 @@
                             <a class="dropdown-item" href="<?= base_url('sejarah') ?>">Sejarah</a>
                             <a class="dropdown-item" href="<?= base_url('visimisi') ?>">Visi Misi</a>
                             <a class="dropdown-item" href="<?= base_url('struktur') ?>">Struktur Organisasi</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Mars Unwaha</a>
+                            <a class="dropdown-item" href="<?= base_url('mars_unwaha') ?>">Mars Unwaha</a>
                             <a class="dropdown-item" href="<?= base_url('data_dosen') ?>">Dosen dan Staff</a>
                         </div>
                     </li>
@@ -131,43 +131,46 @@
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ORGANISASI</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('') ?>">Yayasan</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Pimpinan Fakultas</a>
+                            <a class="dropdown-item" href="<?= base_url('pimpinan_fakultas') ?>">Pimpinan Fakultas</a>
                             <a class="dropdown-item" href="<?= base_url('ukm') ?>">UKM</a>
 
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
-                        <a class="nav-link text-white" href="<?= base_url('fakultas') ?>">FAKULTAS</a>
-
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fakultas</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="<?= base_url('fakultas') ?>">Data Fakultas</a>
+                            <a class="dropdown-item" href="<?= base_url('prodi') ?>">Data Prodi</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('kalender') ?>">Kalender Akademik</a>
                             <a class="dropdown-item" href="<?= base_url('kalenderakademik') ?>">Kurikulum Pembelajaran</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Jadwal Perkuliahan</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Info Beasiswa</a>
+                            <a class="dropdown-item" href="<?= base_url('jadwal_perkulian') ?>">Jadwal Perkuliahan</a>
+                            <a class="dropdown-item" href="<?= base_url('info_beasiswa') ?>">Info Beasiswa</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fasilitas</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">Perpustakaan</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Lab Bahasa</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Lab Komputer</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">Kantin</a>
+                            <a class="dropdown-item" href="<?= base_url('lab_bahasa') ?>">Lab Bahasa</a>
+                            <a class="dropdown-item" href="<?= base_url('lab_komputer') ?>">Lab Komputer</a>
+                            <a class="dropdown-item" href="<?= base_url('kantin') ?>">Kantin</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan Aplikasi</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url() ?>">PMB</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">SIA UNWAHA</a>
+                            <a class="dropdown-item" href="<?= base_url('pmb') ?>">PMB</a>
+                            <a class="dropdown-item" href="<?= base_url('sia_unwaha') ?>">SIA UNWAHA</a>
                             <a class="dropdown-item" href="<?= base_url('jurnal') ?>">E-JOURNAL</a>
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">E-LIBRARY</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">E-LEARNING</a>
+                            <a class="dropdown-item" href="<?= base_url('e_learning') ?>">E-LEARNING</a>
                             <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
-                            <a class="dropdown-item" href="<?= base_url() ?>">PENGAJUAN TA</a>
+                            <a class="dropdown-item" href="<?= base_url('pengajuan_ta') ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                         </div>
                     </li>
@@ -179,9 +182,9 @@
 
 
     <!-- MAIN CONTENT RENDER -->
-        <?php
-        echo $this->renderSection('content');
-        ?>
+    <?php
+    echo $this->renderSection('content');
+    ?>
     <!-- END CONTENT RENDER -->
 
     <footer class="bg-dark">
