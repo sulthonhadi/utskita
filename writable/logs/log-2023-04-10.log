@@ -75,3 +75,21 @@ in APPPATH\Views\admin\sell_barang.php on line 71.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_mhs))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:07:07 --> Invalid file: "layanan_app/pmb.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/pmb.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/pmb', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(73): view('layanan_app/pmb')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->pmb()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:07:13 --> Invalid file: "layanan_app/pmb.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/pmb.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/pmb', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(73): view('layanan_app/pmb')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->pmb()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

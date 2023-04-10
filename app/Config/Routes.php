@@ -21,10 +21,28 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 // $routes->get('/', 'Home::index');
-$routes->get('/pembayaran_ukt','Dashboard_mhs::pembayaran_ukt');
-$routes->get('/biodata','Dashboard_mhs::biodata');
-$routes->get('/sell_barang','Dashboard_mhs::sell_barang');
-$routes->get('/add_barang','Dashboard_mhs::add_barang');
+$routes->get('/pembayaran_ukt', 'Dashboard_mhs::pembayaran_ukt');
+$routes->get('/biodata', 'Dashboard_mhs::biodata');
+$routes->get('/sell_barang', 'Dashboard_mhs::sell_barang');
+$routes->get('/add_barang', 'Dashboard_mhs::add_barang');
+$routes->get('/infopembayaran', 'Dashboard_mhs::infopembayaran');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $routes->get('/peraturan', 'Akademik::peraturan');
 $routes->get('/datadosen', 'Profil::data_dosen');
 $routes->get('/galeri', 'Profil::galeri');
