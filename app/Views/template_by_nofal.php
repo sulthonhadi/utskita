@@ -122,6 +122,7 @@
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('visimisi') ?>">Visi Misi</a>
+                            <a class="dropdown-item" href="<?= base_url('s_kampus') ?>">Struktur Kampus</a>
                             <a class="dropdown-item" href="<?= base_url('struktur') ?>">Struktur Organisasi</a>
                             <a class="dropdown-item" href="<?= base_url('data_dosen') ?>">Dosen dan Staff</a>
                             <a class="dropdown-item" href="<?= base_url('galeri') ?>">Gallery Unwaha</a>

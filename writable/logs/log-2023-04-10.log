@@ -111,3 +111,23 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:37:27 --> Undefined array key 4
+in APPPATH\Views\struktur_kampus.php on line 71.
+ 1 APPPATH\Views\struktur_kampus.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Views\\struktur_kampus.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\struktur_kampus.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('struktur_kampus', [], true)
+ 5 APPPATH\Controllers\Profil.php(31): view('struktur_kampus')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->s_kampus()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:48:56 --> Invalid file: "prak.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prak.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('prak', [], true)
+ 3 APPPATH\Controllers\Profil.php(39): view('prak')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Profil->prak()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

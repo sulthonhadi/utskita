@@ -28,6 +28,9 @@ $routes->get('/add_barang','Dashboard_mhs::add_barang');
 $routes->get('/peraturan', 'Akademik::peraturan');
 $routes->get('/datadosen', 'Profil::data_dosen');
 $routes->get('/galeri', 'Profil::galeri');
+$routes->get('/s_kampus', 'Profil::s_kampus');
+$routes->get('/pr', 'Profil::pr');
+$routes->get('/prak', 'Profil::prak');
 
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');
