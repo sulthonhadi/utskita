@@ -52,7 +52,7 @@
 			// Data dosen disimpan dalam bentuk array
 		$data = array(
 			array('220209', 'Hj.Hizbiyah Rochim Wahab,M.A.,'Ketua Umum Ypt Bahrul Ulum','2023'),
-			array('223456', 'Prof.Dr.Ir.H.Gatot Ciptadi,Dess.,Ipu.,Asean Eng.','Rektor Unwaha Jombang','2023'),
+array('223456', 'Prof.Dr.Ir.H.Gatot Ciptadi,Dess.,Ipu.,Asean Eng.','Rektor Unwaha Jombang','2023'),
 			array('378906', 'Ino Angga Putra,M.Pd.,'Wakil Rektor Bidang Akademik','2023'),
 			array('409871', 'Dr.H.Fatkhullah, M.Pd.I.,'Wakil Rektor Bidang Kerjasama','2023'),
 			array('508762', 'Dr.H.M.Wafiyul Ahdi,M.Pd.I.','Wakil Rektor Bidang Kemahasiswaan','2023'),

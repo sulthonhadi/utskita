@@ -75,3 +75,39 @@ in APPPATH\Views\admin\sell_barang.php on line 71.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard_mhs))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:20:24 --> Invalid file: "layanan_app/eventdanberita.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layanan_app/eventdanberita.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layanan_app/eventdanberita', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(77): view('layanan_app/eventdanberita')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->event_berita()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:21:47 --> Invalid file: "seminar/eventdanberita.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seminar/eventdanberita.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('seminar/eventdanberita', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(77): view('seminar/eventdanberita')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->event_berita()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:21:49 --> Invalid file: "seminar/eventdanberita.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seminar/eventdanberita.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('seminar/eventdanberita', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(77): view('seminar/eventdanberita')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->event_berita()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 15:22:01 --> Invalid file: "seminar/eventdanberita.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('seminar/eventdanberita.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('seminar/eventdanberita', [], true)
+ 3 APPPATH\Controllers\Layanan_app.php(77): view('seminar/eventdanberita')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Layanan_app->event_berita()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layanan_app))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

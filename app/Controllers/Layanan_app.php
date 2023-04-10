@@ -72,4 +72,8 @@ class Layanan_app extends BaseController
     {
         return view('layanan_app/pmb');
     }
+    public function event_berita()
+    {
+        return view('eventdanberita');
+    }
 }
