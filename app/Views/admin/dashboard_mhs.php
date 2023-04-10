@@ -71,6 +71,11 @@
                             <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Info Pembayaran</span>
                         </a>
                     </li>
+                    <li class="sidebar-item">
+                        <a class="hijau sidebar-link" href="<?= base_url('nilai') ?>">
+                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Nilai Mahasiswa</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
