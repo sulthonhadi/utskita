@@ -42,10 +42,8 @@
 				array('6','20230006','Novi Kartika Sari','P','Yogyakarta, 16 Juni 2002','Pendidikan Bahasa Arab','089123456789','novikartikasari@yahoo.com','Yogyakarta'),
 				array('7','20230007','Bayu Setianto','L','Demak, 13 Maret 2001','Ekonomi Syariah','089123456789','bayusetianto@yahoo.com','Demak'),
 				array('8','20230008','Jefri Ardiansyah','L','Bogor, 26 April 2002','Manajemen','089123456789','jefriardiansyah@yahoo.com','Bogor'),
-				array('9','20230009','Muhammad Fauzi','L','Wonogiri, 01 Januari 2003','Pendidikan Biologi','089123456789','fauzigans00@yahoo.com','Wonogiri'),
-				array('10','20230010','Junaidi Sinaga','L','Sumatra, 27 Januari 2001','Agroekteknologi','089123456789','junaidisinaga@gmail.com','Sumatra'),
 			);
-			
+			 
 			foreach ($data as $anggota) {
 				echo "<tr>";
 				echo "<td>" . $anggota[0] . "</td>";
@@ -57,8 +55,6 @@
 				echo "<td>" . $anggota[6] . "</td>";
 				echo "<td>" . $anggota[7] . "</td>";
 				echo "<td>" . $anggota[8] . "</td>";
-				echo "<td>" . $anggota[9] . "</td>";
-				echo "<td>" . $anggota[10] . "</td>";
 				echo "</tr>";
 			}
 		?>
