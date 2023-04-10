@@ -76,4 +76,5 @@ class Layanan_app extends BaseController
     {
         return view('eventdanberita');
     }
+    
 }
