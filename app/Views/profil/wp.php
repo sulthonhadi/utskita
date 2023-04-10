@@ -12,7 +12,7 @@ echo $this->section('content') ?>
         <div class="col-6">
 
             <div class="card mb-3">
-                <img src="<?= base_url('assets/img/9.JPG') ?>" class="card-img-top" alt="...">
+                <img src="<?= base_url('assets/img_dinda/9.JPG') ?>" class="card-img-top" alt="...">
                 <div class="card-body" style="background-color: blue;">
                     <h5 class="card-title text-white">OSFAK</h5>
                     <p class="card-text text-white">Orientasi Fakultas Teknologi Informatika Tahun 2022</p>
@@ -23,7 +23,7 @@ echo $this->section('content') ?>
             </div>
         </div>
         <div class="col-6">
-            <img src="<?= base_url('assets/img/2.jpg') ?>" class="card-img-top" alt="...">
+            <img src="<?= base_url('assets/img_dinda/2.jpg') ?>" class="card-img-top" alt="...">
             <div class="card-body" style="background-color: blue;">
                 <h5 class="card-title text-white">STUDENT EXCHANGE</h5>
                 <p class="card-text text-white">Student Exchange UNWAHA Jombang Go International University</p>
