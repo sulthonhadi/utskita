@@ -38,6 +38,7 @@
         .nav-item .nav-link {
             text-transform: uppercase;
             font-family: 'Rubik' !important;
+            font-size: 13px !important;
             letter-spacing: 1.1px;
             font-weight: 500;
         }
@@ -120,20 +121,17 @@
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url('sejarah') ?>">Sejarah</a>
                             <a class="dropdown-item" href="<?= base_url('visimisi') ?>">Visi Misi</a>
                             <a class="dropdown-item" href="<?= base_url('struktur') ?>">Struktur Organisasi</a>
-                            <a class="dropdown-item" href="<?= base_url('mars_unwaha') ?>">Mars Unwaha</a>
                             <a class="dropdown-item" href="<?= base_url('data_dosen') ?>">Dosen dan Staff</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ORGANISASI</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url('') ?>">Yayasan</a>
+                            <a class="dropdown-item" href="<?= base_url('yayasan') ?>">Yayasan</a>
                             <a class="dropdown-item" href="<?= base_url('pimpinan_fakultas') ?>">Pimpinan Fakultas</a>
                             <a class="dropdown-item" href="<?= base_url('ukm') ?>">UKM</a>
-
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
@@ -150,6 +148,8 @@
                             <a class="dropdown-item" href="<?= base_url('kalenderakademik') ?>">Kurikulum Pembelajaran</a>
                             <a class="dropdown-item" href="<?= base_url('jadwal_perkulian') ?>">Jadwal Perkuliahan</a>
                             <a class="dropdown-item" href="<?= base_url('info_beasiswa') ?>">Info Beasiswa</a>
+                            <a class="dropdown-item" href="<?= base_url('seminar') ?>">Info Seminar</a>
+
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
@@ -174,6 +174,7 @@
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                         </div>
                     </li>
+
                 </ul>
             </div>
         </div>

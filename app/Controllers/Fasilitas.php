@@ -8,4 +8,8 @@ class Fasilitas extends BaseController
     {
         // return view('');
     }
+    public function perpus()
+    {
+        return view('p_fasilitas/perpus');
+    }
 }

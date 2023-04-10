@@ -21,25 +21,27 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 
 // $routes->get('/', 'Home::index');
+$routes->get('/datadosen', 'Profil::data_dosen');
 
 // FASILITAS 
 $routes->get('/perpus', 'Fasilitas::perpus');
 
-//DASHBOARD MHS
 
+//DASHBOARD MHS
 $routes->get('/admin', 'Dashboard_mhs::index');
 $routes->get('/home', 'Dashboard_mhs::home');
 $routes->get('/icon_list', 'Dashboard_mhs::icon_list');
 
 
-// LAYANAN APLIKASI 
-$routes->get('/f_alumni', 'C_alumni::f_alumni');
-$routes->get('/alumni', 'C_alumni::index');
-
 $routes->get('/koperasi', 'Koperasi::index');
 $routes->get('/mahasiswa_aktif', 'Mhs::m_aktif');
 
 $routes->get('/', 'Home::index');
+
+
+// LAYANAN APLIKASI 
+$routes->get('/f_alumni', 'Layanan_app::data_alumni');
+$routes->get('/alumni', 'Layanan_app::form_alumni');
 
 
 //AKADEMIK
@@ -51,14 +53,25 @@ $routes->get('/ukm', 'Ukm::index');
 
 // FAKULTAS
 $routes->get('/fakultas', 'Home::fakultas');
+$routes->get('/prodi', 'Home::prodi');
+
+
+
+// Seminar
+$routes->get('/seminar', 'Akademik::seminar');
+$routes->get('/seminar_a', 'Akademik::seminar_a');
+$routes->get('/seminar_b', 'Akademik::seminar_b');
+$routes->get('/seminar_c', 'Akademik::seminar_c');
+$routes->get('/seminar_d', 'Akademik::seminar_d');
 
 
 //PROFIL
-$routes->get('/pegawai_staff', 'Profil::pegawai');
+$routes->get('/pegawai', 'Profil::pegawai');
 $routes->get('/struktur', 'Profil::struktur');
 $routes->get('/visimisi', 'Profil::visi_misi');
-$routes->get('/data_dosen', 'Profil::data_dosen');
 $routes->get('/sejarah', 'Profil::sejarah');
+$routes->get('/data_dosen', 'Profil::data_dosen');
+
 
 
 //JURNAL

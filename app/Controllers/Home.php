@@ -12,4 +12,8 @@ class Home extends BaseController
     {
         return view('pages/fakultas');
     }
+    public function prodi()
+    {
+        return view('pages/maya/Daftarprodi');
+    }
 }
