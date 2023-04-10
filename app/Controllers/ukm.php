@@ -8,4 +8,8 @@ class Ukm extends BaseController
     {
         return view('p_ukm/ukm_base');
     }
+    public function bem()
+    {
+        return view('p_ukm/bem');
+    }
 }

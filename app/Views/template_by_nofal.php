@@ -131,6 +131,7 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <!-- <a class="dropdown-item" href="<?= base_url('yayasan') ?>">Yayasan</a> -->
                             <!-- <a class="dropdown-item" href="<?= base_url('pimpinan_fakultas') ?>">Pimpinan Fakultas</a> -->
+                            <a class="dropdown-item" href="<?= base_url('bem') ?>">BEM</a>
                             <a class="dropdown-item" href="<?= base_url('ukm') ?>">UKM</a>
                         </div>
                     </li>
@@ -149,6 +150,7 @@
                             <a class="dropdown-item" href="<?= base_url('jadwal_perkulian') ?>">Jadwal Perkuliahan</a>
                             <a class="dropdown-item" href="<?= base_url('info_beasiswa') ?>">Info Beasiswa</a>
                             <a class="dropdown-item" href="<?= base_url('seminar') ?>">Info Seminar</a>
+                            <a class="dropdown-item" href="<?= base_url('peraturan') ?>">Peraturan Perkuliahan</a>
 
                         </div>
                     </li>
@@ -156,9 +158,9 @@
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fasilitas</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('perpus') ?>">Perpustakaan</a>
-                            <a class="dropdown-item" href="<?= base_url('lab_bahasa') ?>">Lab Bahasa</a>
+                            <!-- <a class="dropdown-item" href="<?= base_url('lab_bahasa') ?>">Lab Bahasa</a>
                             <a class="dropdown-item" href="<?= base_url('lab_komputer') ?>">Lab Komputer</a>
-                            <a class="dropdown-item" href="<?= base_url('kantin') ?>">Kantin</a>
+                            <a class="dropdown-item" href="<?= base_url('kantin') ?>">Kantin</a> -->
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
@@ -171,7 +173,9 @@
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
                         </div>
                     </li>
-
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link text-white" href="<?= base_url('nilai') ?>" >Nilai Mahasiswa</a>  
+                    </li>
                 </ul>
             </div>
         </div>
