@@ -1,5 +1,6 @@
-
 <?php
+echo $this->extend('template_by_nofal');
+echo $this->section('content');
 //data event
 $event1 = array(
   "judul" => "Webinar Kewirausahaan",
@@ -71,5 +72,4 @@ echo "<li><strong>" . $berita1['judul'] . "<br><img src=" . $gambar[3] . " width
 echo "<li><strong>" . $berita2['judul'] . "<br><img src=" . $gambar[4] . " width=500px>" . "</strong><br>Tanggal: " . $berita2['tanggal'] . "<br>" . $berita2['isi'] . "</li>";
 echo "<li><strong>" . $berita3['judul'] . "<br><img src=" . $gambar[5] . " width=500px>" . "</strong><br>Tanggal: " . $berita3['tanggal'] . "<br>" . $berita3['isi'] . "</li>";
 echo "</ul>";
-
-?>
+echo $this->endSection();

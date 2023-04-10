@@ -71,6 +71,7 @@ $routes->get('/laporan_ta', 'Home::laporan_ta');
 $routes->get('/f_alumni', 'Layanan_app::data_alumni');
 $routes->get('/alumni', 'Layanan_app::form_alumni');
 $routes->get('/pmb', 'Layanan_app::pmb');
+$routes->get('/event_berita', 'Layanan_app::event_berita');
 
 
 //AKADEMIK

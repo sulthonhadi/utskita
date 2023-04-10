@@ -1,3 +1,7 @@
+    <?php
+    echo $this->extend('template_by_nofal');
+    echo $this->section('content') ?>
+
     <h1>Kalender Akademik 2022/2023</h1>
     <h2>Universitas KH.A Wahab Hasbullah Jombang</h2>
 
@@ -931,3 +935,4 @@
         </div>
     </table>
     <br>
+    <?php echo $this->endSection() ?>

@@ -173,6 +173,7 @@
                             <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url('pengajuan_ta') ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>
+                            <a class="dropdown-item" target="_blank" href="<?= base_url('event_berita') ?>">Event Dan Berita</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
