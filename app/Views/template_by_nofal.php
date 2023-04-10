@@ -165,10 +165,7 @@
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan Aplikasi</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="<?= base_url('pmb') ?>">PMB</a>
-                            <a class="dropdown-item" href="<?= base_url('sia_unwaha') ?>">SIA UNWAHA</a>
                             <a class="dropdown-item" href="<?= base_url('jurnal') ?>">E-JOURNAL</a>
-                            <a class="dropdown-item" href="<?= base_url('perpus') ?>">E-LIBRARY</a>
-                            <a class="dropdown-item" href="<?= base_url('e_learning') ?>">E-LEARNING</a>
                             <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url('pengajuan_ta') ?>">PENGAJUAN TA</a>
                             <a class="dropdown-item" target="_blank" href="<?= base_url('alumni') ?>">Alumni</a>

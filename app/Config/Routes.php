@@ -42,12 +42,15 @@ $routes->get('/', 'Home::index');
 // LAYANAN APLIKASI 
 $routes->get('/f_alumni', 'Layanan_app::data_alumni');
 $routes->get('/alumni', 'Layanan_app::form_alumni');
-$routes->get('/pmb', 'Layanan_app::form_alumni');
+$routes->get('/pmb', 'Layanan_app::pmb');
 
 
 //AKADEMIK
 $routes->get('/kalenderakademik', 'Akademik::page2');
 $routes->get('/kalender', 'Akademik::kalender');
+$routes->get('/info_beasiswa', 'Akademik::beasiswa');
+$routes->get('/seminar', 'Akademik::seminar');
+
 
 //ORGANISASI
 $routes->get('/ukm', 'Ukm::index');

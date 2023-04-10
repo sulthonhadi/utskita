@@ -16,4 +16,12 @@ class Akademik extends BaseController
     {
         return view('akademik/page2');
     }
+    public function beasiswa()
+    {
+        return view('beasiswa/home');
+    }
+    public function seminar()
+    {
+        return view('seminar/Seminar');
+    }
 }
