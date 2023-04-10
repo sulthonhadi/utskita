@@ -33,4 +33,8 @@ class Dashboard_mhs extends BaseController
     {
         return view('admin/biodata');
     }
+    public function infopembayaran()
+    {
+        return view('admin/infopembayaranmahasiswa');
+    }
 }

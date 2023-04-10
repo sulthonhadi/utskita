@@ -24,4 +24,8 @@ class Home extends BaseController
     {
         return view('pages/laporan_ta');
     }
+    public function formpmb()
+    {
+        return view('form_pmb');
+    }
 }

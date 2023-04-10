@@ -169,7 +169,6 @@
                     <li class="nav-item dropdown me-2">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan Aplikasi</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="<?= base_url('pmb') ?>">PMB</a>
                             <a class="dropdown-item" href="<?= base_url('jurnal') ?>">E-JOURNAL</a>
                             <a class="dropdown-item" href="<?= base_url('alumni') ?>" target="_blank">TRACER STUDY</a>
                             <a class="dropdown-item" href="<?= base_url('pengajuan_ta') ?>">PENGAJUAN TA</a>
@@ -178,8 +177,13 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown me-2">
-                        <a class="nav-link text-white" href="<?= base_url('nilai') ?>">Nilai Mahasiswa</a>
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PMB</a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="<?= base_url('pmb') ?>">PMB</a>
+                            <a class="dropdown-item" href="<?= base_url('form_pmb') ?>">Form PMB</a>
+                        </div>
                     </li>
+
                 </ul>
             </div>
         </div>
