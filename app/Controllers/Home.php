@@ -16,4 +16,8 @@ class Home extends BaseController
     {
         return view('pages/maya/Daftarprodi');
     }
+    public function nilai()
+    {
+        return view('mhs/index_nilai_bimo');
+    }
 }

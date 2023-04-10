@@ -38,6 +38,7 @@ $routes->get('/koperasi', 'Koperasi::index');
 $routes->get('/mahasiswa_aktif', 'Mhs::m_aktif');
 
 $routes->get('/', 'Home::index');
+$routes->get('/nilai', 'Home::nilai');
 
 
 // LAYANAN APLIKASI 
@@ -55,6 +56,7 @@ $routes->get('/seminar', 'Akademik::seminar');
 
 //ORGANISASI
 $routes->get('/ukm', 'Ukm::index');
+$routes->get('/bem', 'Ukm::bem');
 
 // FAKULTAS
 $routes->get('/fakultas', 'Home::fakultas');
