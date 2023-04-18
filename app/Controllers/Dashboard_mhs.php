@@ -37,4 +37,37 @@ class Dashboard_mhs extends BaseController
     {
         return view('admin/infopembayaranmahasiswa');
     }
+    public function penilaianmhs_a()
+    {
+        return view('admin/penilaianmhs1/index');
+    }
+    public function penilaianmhs_b()
+    {
+        return view('admin/penilaianmhs1/bapak_angga');
+    }
+    public function penilaianmhs_c()
+    {
+        return view('admin/penilaianmhs1/bapak_agus_athok');
+    }
+    public function penilaianmhs_d()
+    {
+        return view('admin/penilaianmhs1/bapak_ponari');
+    }
+    public function penilaianmhs_e()
+    {
+        return view('admin/penilaianmhs1/bapak_sujono');
+    }
+    public function penilaianmhs_f()
+    {
+        return view('admin/penilaianmhs1/bapak_tholib');
+    }
+    public function penilaianmhs_g()
+    {
+        return view('admin/penilaianmhs1/ibu_faidah');
+        
+    }
+    public function penilaianmhs_h()
+    {
+        return view('admin/penilaianmhs1/ibu_munawarah');
+    }
 }

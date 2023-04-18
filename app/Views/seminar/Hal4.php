@@ -34,7 +34,7 @@
         </div>
 
         <div class="d-block w-100 mx-auto my-4">
-            <img src="asset/Webinar-Guru.jpeg" class="w-100" alt="">
+            <img src="assets/img_aziz/Webinar-Guru.jpeg" class="w-100" alt="">
 
         </div>
 

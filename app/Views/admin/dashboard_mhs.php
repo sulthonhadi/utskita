@@ -76,6 +76,11 @@
                             <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Nilai Mahasiswa</span>
                         </a>
                     </li>
+                    <li class="sidebar-item">
+                        <a class="hijau sidebar-link" href="<?= base_url('penilaianmhs') ?>">
+                            <i class=" align-middle" data-feather="menu"></i> <span class="align-middle">Penilaian mahasiswa kpd dosen</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>

@@ -31,12 +31,12 @@
 
 
                 <div class="card mt-5 ">
-                    <img src="asset/loket.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img_aziz/loket.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"> <strong>Marketing Analyst Academy Batch 10</strong> </h5>
                         <p class="card-text">Tanggal: 24 Juni – 9 September 2023 <br> Tempat: online by zoom & onsite di Hotel Java ParagonHTM: Rp 5.700.000 – 8.000.000…</p>
 
-                        <a href="<?= base_url('/hl1') ?>" class="btn btn-primary ">Lets go </a>
+                        <a href="<?= base_url('/Seminar_a') ?>" class="btn btn-primary ">Lets go </a>
                     </div>
                 </div>
 
@@ -44,13 +44,13 @@
             </div>
             <div class="col-3">
                 <div class="card mt-5 ">
-                    <img src="asset/loketpublic-training.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img_aziz/loketpublic-training.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><strong>JURUS CLOSING ANTI LELET – JAMINAN KOMISI CAIR SAT SET</strong></h5>
                         <p class="card-text">Tanggal: 13 Juni 2023 <br> Tempat: Hotel Great Diponegoro, Surabaya.HTM: Rp 150.000 </p>
                         <br>
 
-                        <a href="<?= base_url('/hl2') ?>" class="btn btn-primary">Lets go </a>
+                        <a href="<?= base_url('Seminar_b') ?>" class="btn btn-primary">Lets go </a>
                     </div>
                 </div>
 
@@ -58,12 +58,12 @@
             </div>
             <div class="col-3">
                 <div class="card mt-5">
-                    <img src="asset/LoketMC-13-April-2023.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img_aziz/LoketMC-13-April-2023.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Ngonten Doang, Bisa Jualan?</strong></h5>
                         <p class="card-text">Tanggal: 13 April 2023 <br> Tempat: IdeaHub, Voza Tower lt 20, Surabaya.HTM: Rp 150.000 Ngonten Dulu Atau Jualan Dulu? 🥵 Sepenting apa…</p>
                         <br>
-                        <a href="<?= base_url('/hl3') ?>" class="btn btn-primary">Lets go</a>
+                        <a href="<?= base_url('Seminar_c') ?>" class="btn btn-primary">Lets go</a>
                     </div>
                 </div>
 
@@ -71,11 +71,11 @@
             </div>
             <div class="col-3">
                 <div class="card mt-5">
-                    <img src="asset/Webinar-Guru.jpeg" class="card-img-top " alt="...">
+                    <img src="assets/img_aziz/Webinar-Guru.jpeg" class="card-img-top " alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Webinar: Asesmen Pada Kurikulum Merdeka</strong></h5>
                         <p class="card-text">Sub tema: Aplikasi E-Rapor Kurikulum Merdeka & Asesmen Normatif dan Sumatif Pada Kurikulum MerdekaTanggal: Rabu, 12 April 2023 Pukul: 13.00</p>
-                        <a href="<?= base_url('/hl4') ?>" class="btn btn-primary">Lets go </a>
+                        <a href="<?= base_url('Seminar_d') ?>" class="btn btn-primary">Lets go </a>
                     </div>
                 </div>
 

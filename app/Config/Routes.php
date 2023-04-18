@@ -28,6 +28,21 @@ $routes->get('/add_barang', 'Dashboard_mhs::add_barang');
 $routes->get('/infopembayaran', 'Dashboard_mhs::infopembayaran');
 $routes->get('/form_pmb', 'Home::formpmb');
 $routes->get('/koperasi', 'Home::koperasi');
+$routes->get('/penilaianmahasiswa', 'Dashboard_mhs::index');
+$routes->get('/penilaianmhs', 'Dashboard_mhs::penilaianmhs_a');
+$routes->get('/penilaianmhs2', 'Dashboard_mhs::penilaianmhs_b');
+$routes->get('/penilaianmhs3', 'Dashboard_mhs::penilaianmhs_c');
+$routes->get('/penilaianmhs4', 'Dashboard_mhs::penilaianmhs_d');
+$routes->get('/penilaianmhs5', 'Dashboard_mhs::penilaianmhs_e');
+$routes->get('/penilaianmhs6', 'Dashboard_mhs::penilaianmhs_f');
+$routes->get('/penilaianmhs7', 'Dashboard_mhs::penilaianmhs_g');
+$routes->get('/penilaianmhs8', 'Dashboard_mhs::penilaianmhs_h');
+
+$routes->get('/Seminar_a', 'Akademik::Seminar1');
+$routes->get('/Seminar_b', 'Akademik::Seminar2');
+$routes->get('/Seminar_c', 'Akademik::Seminar3');
+$routes->get('/Seminar_d', 'Akademik::Seminar4');
+
 
 
 

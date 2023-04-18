@@ -32,7 +32,7 @@
         </div>
 
         <div class="d-block w-50 mx-auto my-3">
-            <img src="asset/loket.jpg" class="w-100" alt="">
+            <img src="assets/img_aziz/loket.jpg" class="w-100" alt="">
 
         </div>
         <P style="text-align: justify;">Promosi bikin boncos, tapi hasilnya gitu-gitu aja? Bisa jadi ini penyebabnya!😰

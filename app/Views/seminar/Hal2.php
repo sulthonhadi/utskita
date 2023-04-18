@@ -33,7 +33,7 @@
         </div>
 
         <div class="d-block w-50 mx-auto my-4">
-            <img src="asset/loketpublic-training.jpg" class="w-100" alt="">
+            <img src="assets/img_aziz/loketpublic-training.jpg" class="w-100" alt="">
 
         </div>
         <P style="text-align: justify;">
