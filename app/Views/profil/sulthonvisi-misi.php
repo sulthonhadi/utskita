@@ -2,10 +2,50 @@
 echo $this->extend('template_by_nofal');
 echo $this->section('content') ?>
 
-<img src="https://unwaha.ac.id/wp-content/uploads/2022/12/Gedung-Baru-UNWAHA.jpg" class="w-75 mx-auto">
+<style>
+		
+
+	
+
+	.title{
+		background-color: yellow;
+		font-family: 'bold';
+
+	}
+
+	body {
+		font-family: roboto;
+		background-color: rgb(153, 225, 201);
+	}
+
+	.container {
+		
+		width: 60%;
+		
+	}
+
+	.visi {
+		font-size: 16px;
+		color: #000;
+		margin-bottom: 20px;
+	}
+
+	.misi {
+		font-size: 16px;
+		color: #000;
+		margin-bottom: 20px;
+	}
 
 
+	.tujuan {
+		font-size: 16px;
+		color: #000;
+		margin-bottom: 20px;
+	}
 
+</style>
+<center>
+<img src="https://unwaha.ac.id/wp-content/uploads/2022/12/Gedung-Baru-UNWAHA.jpg" class="w-76 mx-auto">
 <div class="title">
 	<h1>VISI & MISI</h1>
 </div>
@@ -40,4 +80,5 @@ echo $this->section('content') ?>
 	</div>
 
 </div>
+</center>
 <?php echo $this->endSection() ?>
